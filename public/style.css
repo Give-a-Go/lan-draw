@@ -7,3 +7,20 @@ canvas {
   display: block;
   background: white;
 }
+
+#overlay-instruction {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.289);
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 1.3em;
+  z-index: 1000;
+  pointer-events: none;
+  font-family: Arial, sans-serif;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
